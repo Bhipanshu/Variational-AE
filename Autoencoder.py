@@ -19,7 +19,7 @@ transform1 = transforms.Compose([
     transforms.Resize((256,256)),
     transforms.ToTensor(),
 ])
-dataset = datasets.ImageFolder(root='/media/bennettpc/fe11dcbb-f25e-4ef7-83dc-f1876b222064/Bhipanshu/Channel_outputs',transform=transform1)
+dataset = datasets.ImageFolder(root='Path to data dir',transform=transform1)
 dataloader = torch.utils.data.DataLoader(dataset,batch_size= 40,shuffle=True)
 
 
