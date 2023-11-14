@@ -1,0 +1,1 @@
+Medium blog - https://medium.com/@bhipanshudhupar/loss-functions-in-simple-autoencoders-mse-vs-l1-loss-4e838ae425b9
